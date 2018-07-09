@@ -17,7 +17,7 @@ class Nutrition extends Model implements EntityContract
      * @var array
      */
     protected $fillable = [
-        'salt'
+        'salt', 'protein'
     ];
 
     /**
