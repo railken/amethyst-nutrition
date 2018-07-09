@@ -20,6 +20,7 @@ class CreateNutritionsTable extends Migration
             $table->float('protein')->default(0);
             $table->float('fibre')->default(0);
             $table->float('sugars')->default(0);
+            $table->float('fat')->default(0);
             $table->timestamps();
             $table->softDeletes();
         });

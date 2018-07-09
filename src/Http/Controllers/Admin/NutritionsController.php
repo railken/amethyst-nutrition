@@ -32,6 +32,7 @@ class NutritionsController extends RestConfigurableController
         'protein',
         'fibre',
         'sugars',
+        'fat',
         'created_at',
         'updated_at',
     ];
@@ -46,5 +47,6 @@ class NutritionsController extends RestConfigurableController
         'protein',
         'fibre',
         'sugars',
+        'fat',
     ];
 }
