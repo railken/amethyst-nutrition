@@ -2,10 +2,10 @@
 
 namespace Railken\LaraOre\Nutrition;
 
+use Illuminate\Support\Facades\Config;
 use Railken\Laravel\Manager\Contracts\AgentContract;
 use Railken\Laravel\Manager\ModelManager;
 use Railken\Laravel\Manager\Tokens;
-use Illuminate\Support\Facades\Config;
 
 class NutritionManager extends ModelManager
 {
