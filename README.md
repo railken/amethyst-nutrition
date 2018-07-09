@@ -1,7 +1,6 @@
 # lara-ore-nutrition
 
 [![Build Status](https://img.shields.io/travis/railken/lara-ore-nutrition/master.svg?style=flat-square&maxAge=3600)](https://travis-ci.org/railken/lara-ore-nutrition)
-[![StyleCI](https://github.styleci.io/repos/140271324/shield?branch=master)](https://github.styleci.io/repos/140271324)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 This is a [lara-ore](https://github.com/railken/lara-ore) package.
