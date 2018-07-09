@@ -23,6 +23,7 @@ class NutritionFaker extends BaseFaker
         $bag = new Bag();
         $bag->set('salt', 20.3);
         $bag->set('protein', 20.3);
+        $bag->set('fibre', 20.3);
         return $bag;
     }
 }

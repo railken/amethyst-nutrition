@@ -16,8 +16,9 @@ class CreateNutritionsTable extends Migration
     {
         Schema::create(Config::get('ore.nutrition.table'), function (Blueprint $table) {
             $table->increments('id');
-            $table->float('salt');
-            $table->float('protein');
+            $table->float('salt')->default(0);
+            $table->float('protein')->default(0);
+            $table->float('fibre')->default(0);
             $table->timestamps();
             $table->softDeletes();
         });

@@ -30,6 +30,7 @@ class NutritionsController extends RestConfigurableController
         'id',
         'salt',
         'protein',
+        'fibre',
         'created_at',
         'updated_at',
     ];
@@ -42,5 +43,6 @@ class NutritionsController extends RestConfigurableController
     public $fillable = [
         'salt',
         'protein',
+        'fibre',
     ];
 }

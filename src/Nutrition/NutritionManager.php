@@ -27,7 +27,8 @@ class NutritionManager extends ModelManager
         Attributes\UpdatedAt\UpdatedAtAttribute::class,
          Attributes\DeletedAt\DeletedAtAttribute::class,
          Attributes\Salt\SaltAttribute::class,
-         Attributes\Protein\ProteinAttribute::class
+         Attributes\Protein\ProteinAttribute::class,
+         Attributes\Fibre\FibreAttribute::class
      ];
 
     /**
