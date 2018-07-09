@@ -2,10 +2,10 @@
 
 namespace Railken\LaraOre\Nutrition;
 
+use Illuminate\Support\Facades\Config;
 use Railken\Laravel\Manager\Contracts\AgentContract;
 use Railken\Laravel\Manager\ModelManager;
 use Railken\Laravel\Manager\Tokens;
-use Illuminate\Support\Facades\Config;
 
 class NutritionManager extends ModelManager
 {
@@ -15,7 +15,7 @@ class NutritionManager extends ModelManager
      * @var string
      */
     public $entity;
-    
+
     /**
      * List of all attributes.
      *
@@ -33,7 +33,7 @@ class NutritionManager extends ModelManager
          Attributes\Fat\FatAttribute::class,
          Attributes\Saturates\SaturatesAttribute::class,
          Attributes\Carbohydrate\CarbohydrateAttribute::class,
-         Attributes\Calories\CaloriesAttribute::class
+         Attributes\Calories\CaloriesAttribute::class,
      ];
 
     /**

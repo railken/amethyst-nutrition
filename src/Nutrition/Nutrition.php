@@ -4,8 +4,8 @@ namespace Railken\LaraOre\Nutrition;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Railken\Laravel\Manager\Contracts\EntityContract;
 use Illuminate\Support\Facades\Config;
+use Railken\Laravel\Manager\Contracts\EntityContract;
 
 class Nutrition extends Model implements EntityContract
 {
@@ -24,7 +24,7 @@ class Nutrition extends Model implements EntityContract
         'fat',
         'saturates',
         'carbohydrate',
-        'calories'
+        'calories',
     ];
 
     /**
