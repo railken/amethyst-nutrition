@@ -21,6 +21,7 @@ class NutritionFaker extends BaseFaker
         $faker = Factory::create();
 
         $bag = new Bag();
+        $bag->set('calories', 20.3);
         $bag->set('salt', 20.3);
         $bag->set('protein', 20.3);
         $bag->set('fibre', 20.3);
@@ -28,7 +29,7 @@ class NutritionFaker extends BaseFaker
         $bag->set('sugars', 20.3);
         $bag->set('fat', 20.3);
         $bag->set('saturates', 20.3);
-        
+
         return $bag;
     }
 }

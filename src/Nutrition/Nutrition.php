@@ -23,7 +23,8 @@ class Nutrition extends Model implements EntityContract
         'sugars',
         'fat',
         'saturates',
-        'carbohydrate'
+        'carbohydrate',
+        'calories'
     ];
 
     /**
