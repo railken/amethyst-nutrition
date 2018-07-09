@@ -19,6 +19,7 @@ class CreateNutritionsTable extends Migration
             $table->float('salt')->default(0);
             $table->float('protein')->default(0);
             $table->float('fibre')->default(0);
+            $table->float('carbohydrate')->default(0);
             $table->float('sugars')->default(0);
             $table->float('fat')->default(0);
             $table->float('saturates')->default(0);
