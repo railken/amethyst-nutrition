@@ -26,6 +26,7 @@ class NutritionFaker extends BaseFaker
         $bag->set('fibre', 20.3);
         $bag->set('sugars', 20.3);
         $bag->set('fat', 20.3);
+        $bag->set('saturates', 20.3);
         return $bag;
     }
 }
