@@ -15,7 +15,7 @@ class NutritionManager extends ModelManager
      * @var string
      */
     public $entity;
-    
+
     /**
      * List of all attributes.
      *
@@ -33,7 +33,7 @@ class NutritionManager extends ModelManager
          Attributes\Fat\FatAttribute::class,
          Attributes\Saturates\SaturatesAttribute::class,
          Attributes\Carbohydrate\CarbohydrateAttribute::class,
-         Attributes\Calories\CaloriesAttribute::class
+         Attributes\Calories\CaloriesAttribute::class,
      ];
 
     /**
