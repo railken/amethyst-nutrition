@@ -22,7 +22,7 @@ class SaltAttribute extends BaseAttribute
      *
      * @var bool
      */
-    protected $required = true;
+    protected $required = false;
 
     /**
      * Is the attribute unique.

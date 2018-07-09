@@ -16,14 +16,14 @@ class CreateNutritionsTable extends Migration
     {
         Schema::create(Config::get('ore.nutrition.table'), function (Blueprint $table) {
             $table->increments('id');
-            $table->float('calories')->default(0);
-            $table->float('salt')->default(0);
-            $table->float('protein')->default(0);
-            $table->float('fibre')->default(0);
-            $table->float('carbohydrate')->default(0);
-            $table->float('sugars')->default(0);
-            $table->float('fat')->default(0);
-            $table->float('saturates')->default(0);
+            $table->float('calories')->nullable();
+            $table->float('salt')->nullable();
+            $table->float('protein')->nullable();
+            $table->float('fibre')->nullable();
+            $table->float('carbohydrate')->nullable();
+            $table->float('sugars')->nullable();
+            $table->float('fat')->nullable();
+            $table->float('saturates')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
