@@ -29,6 +29,7 @@ class NutritionsController extends RestConfigurableController
     public $queryable = [
         'id',
         'calories',
+        'joules',
         'salt',
         'protein',
         'fibre',
@@ -47,6 +48,7 @@ class NutritionsController extends RestConfigurableController
      */
     public $fillable = [
         'calories',
+        'joules',
         'salt',
         'protein',
         'fibre',

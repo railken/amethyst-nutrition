@@ -34,6 +34,7 @@ class NutritionManager extends ModelManager
          Attributes\Saturates\SaturatesAttribute::class,
          Attributes\Carbohydrate\CarbohydrateAttribute::class,
          Attributes\Calories\CaloriesAttribute::class,
+         Attributes\Joules\JoulesAttribute::class,
      ];
 
     /**

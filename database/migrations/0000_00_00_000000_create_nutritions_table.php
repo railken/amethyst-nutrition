@@ -17,6 +17,7 @@ class CreateNutritionsTable extends Migration
         Schema::create(Config::get('ore.nutrition.table'), function (Blueprint $table) {
             $table->increments('id');
             $table->float('calories')->nullable();
+            $table->float('joules')->nullable();
             $table->float('salt')->nullable();
             $table->float('protein')->nullable();
             $table->float('fibre')->nullable();
