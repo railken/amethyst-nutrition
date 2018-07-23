@@ -17,13 +17,11 @@ class ApiTest extends BaseTest
      */
     public function getBaseUrl()
     {
-        return Config::get('ore.api.router.prefix').Config::get('ore.nutrition.http.router.prefix');
+        return Config::get('ore.api.router.prefix').Config::get('ore.nutrition.http.admin.router.prefix');
     }
 
     /**
      * Test common requests.
-     *
-     * @return void
      */
     public function testSuccessCommon()
     {

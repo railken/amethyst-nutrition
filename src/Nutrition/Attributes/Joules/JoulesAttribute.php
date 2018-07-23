@@ -55,7 +55,7 @@ class JoulesAttribute extends BaseAttribute
      * Is a value valid ?
      *
      * @param \Railken\Laravel\Manager\Contracts\EntityContract $entity
-     * @param mixed          $value
+     * @param mixed                                             $value
      *
      * @return bool
      */
@@ -65,7 +65,7 @@ class JoulesAttribute extends BaseAttribute
     }
 
     /**
-     * Retrieve default value
+     * Retrieve default value.
      *
      * @param \Railken\Laravel\Manager\Contracts\EntityContract $entity
      *
@@ -73,11 +73,11 @@ class JoulesAttribute extends BaseAttribute
      */
     public function getDefault(EntityContract $entity)
     {
-        return $entity->calories*$this->getRatio();
+        return $entity->calories * $this->getRatio();
     }
 
     /**
-     * Retrieve ration conversion from calories to joules
+     * Retrieve ration conversion from calories to joules.
      *
      * @return float
      */
