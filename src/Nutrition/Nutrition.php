@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Config;
 use Railken\Laravel\Manager\Contracts\EntityContract;
 
+/**
+ * @property float $calories
+ */
 class Nutrition extends Model implements EntityContract
 {
     use SoftDeletes;

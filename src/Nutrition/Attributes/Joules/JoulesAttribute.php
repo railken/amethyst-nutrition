@@ -67,7 +67,7 @@ class JoulesAttribute extends BaseAttribute
     /**
      * Retrieve default value.
      *
-     * @param \Railken\Laravel\Manager\Contracts\EntityContract $entity
+     * @param \Railken\LaraOre\Nutrition\Nutrition $entity
      *
      * @return mixed
      */
