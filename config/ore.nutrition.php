@@ -106,7 +106,7 @@ return [
             'enabled'    => true,
             'controller' => Railken\LaraOre\Http\Controllers\Admin\NutritionsController::class,
             'router'     => [
-                'prefix'      => '/admin/nutritions',
+                'prefix'      => '/nutritions',
             ],
         ],
     ],
