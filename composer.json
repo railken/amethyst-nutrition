@@ -1,14 +1,10 @@
 {
-    "name": "railken/lara-ore-nutrition",
-    "keywords": ["laravel", "lara-ore", "lara-ore-nutrition", "nutrition"],
+    "name": "railken/amethyst-nutrition",
+    "keywords": ["laravel", "amethyst", "amethyst-nutrition", "nutrition"],
     "license": "MIT",
     "require": {
         "php": ">=7.1",
-        "railken/bag": "^1.2",
-        "railken/laravel-manager": "^3.0.3",
-        "fzaninotto/faker": "^1.7",
-        "railken/lara-ore-api": "dev-master",
-        "railken/lara-ore-support": "dev-master"
+        "railken/amethyst-common": "0.1.*"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.10",
@@ -18,18 +14,18 @@
     },
     "autoload": {
         "psr-4" : {
-            "Railken\\LaraOre\\" : "src/"
+            "Railken\\Amethyst\\" : "src/"
         }
     },
     "autoload-dev": {
         "psr-4": { 
-            "Railken\\LaraOre\\Tests\\": "tests/" 
+            "Railken\\Amethyst\\Tests\\": "tests/" 
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Railken\\LaraOre\\NutritionServiceProvider"
+                "Railken\\Amethyst\\Providers\\NutritionServiceProvider"
             ]
         }
     }

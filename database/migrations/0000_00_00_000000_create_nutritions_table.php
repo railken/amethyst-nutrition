@@ -12,7 +12,7 @@ class CreateNutritionsTable extends Migration
      */
     public function up()
     {
-        Schema::create(Config::get('ore.nutrition.table'), function (Blueprint $table) {
+        Schema::create(Config::get('amethyst.nutrition.managers.nutrition.table'), function (Blueprint $table) {
             $table->increments('id');
             $table->float('calories')->nullable();
             $table->float('joules')->nullable();
@@ -33,6 +33,6 @@ class CreateNutritionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists(Config::get('ore.nutrition.table'));
+        Schema::dropIfExists(Config::get('amethyst.nutrition.managers.nutrition.table'));
     }
 }
