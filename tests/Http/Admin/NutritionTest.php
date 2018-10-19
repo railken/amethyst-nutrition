@@ -2,7 +2,6 @@
 
 namespace Railken\Amethyst\Tests\Http\Admin;
 
-use Illuminate\Support\Facades\Nutrition;
 use Railken\Amethyst\Api\Support\Testing\TestableBaseTrait;
 use Railken\Amethyst\Fakers\NutritionFaker;
 use Railken\Amethyst\Tests\BaseTest;
