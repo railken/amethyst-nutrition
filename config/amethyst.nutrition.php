@@ -20,7 +20,7 @@ return [
             'validator'  => Railken\Amethyst\Validators\NutritionValidator::class,
             'authorizer' => Railken\Amethyst\Authorizers\NutritionAuthorizer::class,
             'faker'      => Railken\Amethyst\Fakers\NutritionFaker::class,
-            'managers'   => Railken\Amethyst\Managers\NutritionManager::class,
+            'manager'   => Railken\Amethyst\Managers\NutritionManager::class,
         ],
     ],
 
