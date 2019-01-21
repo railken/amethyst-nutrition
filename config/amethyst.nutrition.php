@@ -20,7 +20,7 @@ return [
             'validator'  => Railken\Amethyst\Validators\NutritionValidator::class,
             'authorizer' => Railken\Amethyst\Authorizers\NutritionAuthorizer::class,
             'faker'      => Railken\Amethyst\Fakers\NutritionFaker::class,
-            'manager'   => Railken\Amethyst\Managers\NutritionManager::class,
+            'manager'    => Railken\Amethyst\Managers\NutritionManager::class,
         ],
     ],
 
@@ -35,11 +35,11 @@ return [
     'http' => [
         'admin' => [
             'nutrition' => [
-                'enabled'     => true,
-                'controller'  => Railken\Amethyst\Http\Controllers\Admin\NutritionsController::class,
-                'router'      => [
-                    'as'        => 'nutrition.',
-                    'prefix'    => '/nutritions',
+                'enabled'    => true,
+                'controller' => Railken\Amethyst\Http\Controllers\Admin\NutritionsController::class,
+                'router'     => [
+                    'as'     => 'nutrition.',
+                    'prefix' => '/nutritions',
                 ],
             ],
         ],
