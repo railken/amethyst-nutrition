@@ -25,9 +25,9 @@ class NutritionTest extends BaseTest
     protected $group = 'admin';
 
     /**
-     * Base path config.
+     * Route name.
      *
      * @var string
      */
-    protected $config = 'amethyst.nutrition.http.admin.nutrition';
+    protected $route = 'admin.nutrition';
 }
