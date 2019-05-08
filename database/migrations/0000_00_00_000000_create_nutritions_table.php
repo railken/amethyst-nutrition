@@ -23,6 +23,8 @@ class CreateNutritionsTable extends Migration
             $table->float('sugars')->nullable();
             $table->float('fat')->nullable();
             $table->float('saturates')->nullable();
+            $table->string('nutritionable_type')->nullable();
+            $table->integer('nutritionable_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

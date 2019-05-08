@@ -3,6 +3,7 @@
 namespace Railken\Amethyst\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Railken\Amethyst\Common\ConfigurableModel;
 use Railken\Lem\Contracts\EntityContract;
@@ -12,7 +13,8 @@ use Railken\Lem\Contracts\EntityContract;
  */
 class Nutrition extends Model implements EntityContract
 {
-    use SoftDeletes, ConfigurableModel;
+    use SoftDeletes;
+    use ConfigurableModel;
 
     /**
      * Create a new Eloquent model instance.
@@ -23,5 +25,13 @@ class Nutrition extends Model implements EntityContract
     {
         $this->ini('amethyst.nutrition.data.nutrition');
         parent::__construct($attributes);
+    }
+
+    /**
+     * Get all of the owning nutrition models.
+     */
+    public function nutritionable(): MorphTo
+    {
+        return $this->morphTo();
     }
 }

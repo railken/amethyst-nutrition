@@ -24,6 +24,8 @@ class NutritionFaker extends Faker
         $bag->set('sugars', 20.3);
         $bag->set('fat', 20.3);
         $bag->set('saturates', 20.3);
+        $bag->set('nutritionable_type', 'foo');
+        $bag->set('nutritionable', FooFaker::make()->parameters()->toArray());
 
         return $bag;
     }

@@ -14,6 +14,8 @@ abstract class BaseTest extends \Orchestra\Testbench\TestCase
 
         parent::setUp();
 
+        app('amethyst')->pushMorphRelation('nutrition', 'nutritionable', 'foo');
+
         $this->artisan('migrate:fresh');
     }
 
@@ -21,6 +23,7 @@ abstract class BaseTest extends \Orchestra\Testbench\TestCase
     {
         return [
             \Railken\Amethyst\Providers\NutritionServiceProvider::class,
+            \Railken\Amethyst\Providers\FooServiceProvider::class,
         ];
     }
 }
