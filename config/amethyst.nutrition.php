@@ -39,7 +39,7 @@ return [
                 'controller' => Railken\Amethyst\Http\Controllers\Admin\NutritionsController::class,
                 'router'     => [
                     'as'     => 'nutrition.',
-                    'prefix' => '/nutritions',
+                    'prefix' => '/nutrition',
                 ],
             ],
         ],

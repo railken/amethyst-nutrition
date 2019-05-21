@@ -26,6 +26,7 @@ class NutritionSchema extends Schema
             Attributes\NumberAttribute::make('carbohydrate'),
             Attributes\NumberAttribute::make('calories'),
             Attributes\NumberAttribute::make('joules')
+                ->setFillable(false)
                 ->setDefault(function (Nutrition $entity) {
                     return $entity->calories * 4.184;
                 }),
