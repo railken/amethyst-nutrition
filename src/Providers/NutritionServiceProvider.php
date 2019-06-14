@@ -13,9 +13,5 @@ class NutritionServiceProvider extends CommonServiceProvider
     public function boot()
     {
         parent::boot();
-
-        \Illuminate\Database\Eloquent\Builder::macro('nutrition', function (): MorphOne {
-            return app('amethyst')->createMacroMorphOneRelation($this, \Railken\Amethyst\Models\Nutrition::class, 'nutrition', 'nutritionable');
-        });
     }
 }
