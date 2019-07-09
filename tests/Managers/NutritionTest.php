@@ -1,10 +1,10 @@
 <?php
 
-namespace Railken\Amethyst\Tests\Managers;
+namespace Amethyst\Tests\Managers;
 
-use Railken\Amethyst\Fakers\NutritionFaker;
-use Railken\Amethyst\Managers\NutritionManager;
-use Railken\Amethyst\Tests\BaseTest;
+use Amethyst\Fakers\NutritionFaker;
+use Amethyst\Managers\NutritionManager;
+use Amethyst\Tests\BaseTest;
 use Railken\Lem\Support\Testing\TestableBaseTrait;
 
 class NutritionTest extends BaseTest

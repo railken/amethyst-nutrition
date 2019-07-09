@@ -1,8 +1,8 @@
 <?php
 
-namespace Railken\Amethyst\Schemas;
+namespace Amethyst\Schemas;
 
-use Railken\Amethyst\Models\Nutrition;
+use Amethyst\Models\Nutrition;
 use Railken\Lem\Attributes;
 use Railken\Lem\Schema;
 

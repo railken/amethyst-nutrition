@@ -13,14 +13,14 @@ return [
         'nutrition' => [
             'table'      => 'amethyst_nutritions',
             'comment'    => 'Nutrition',
-            'model'      => Railken\Amethyst\Models\Nutrition::class,
-            'schema'     => Railken\Amethyst\Schemas\NutritionSchema::class,
-            'repository' => Railken\Amethyst\Repositories\NutritionRepository::class,
-            'serializer' => Railken\Amethyst\Serializers\NutritionSerializer::class,
-            'validator'  => Railken\Amethyst\Validators\NutritionValidator::class,
-            'authorizer' => Railken\Amethyst\Authorizers\NutritionAuthorizer::class,
-            'faker'      => Railken\Amethyst\Fakers\NutritionFaker::class,
-            'manager'    => Railken\Amethyst\Managers\NutritionManager::class,
+            'model'      => Amethyst\Models\Nutrition::class,
+            'schema'     => Amethyst\Schemas\NutritionSchema::class,
+            'repository' => Amethyst\Repositories\NutritionRepository::class,
+            'serializer' => Amethyst\Serializers\NutritionSerializer::class,
+            'validator'  => Amethyst\Validators\NutritionValidator::class,
+            'authorizer' => Amethyst\Authorizers\NutritionAuthorizer::class,
+            'faker'      => Amethyst\Fakers\NutritionFaker::class,
+            'manager'    => Amethyst\Managers\NutritionManager::class,
         ],
     ],
 
@@ -36,7 +36,7 @@ return [
         'admin' => [
             'nutrition' => [
                 'enabled'    => true,
-                'controller' => Railken\Amethyst\Http\Controllers\Admin\NutritionsController::class,
+                'controller' => Amethyst\Http\Controllers\Admin\NutritionsController::class,
                 'router'     => [
                     'as'     => 'nutrition.',
                     'prefix' => '/nutrition',
