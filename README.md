@@ -1,6 +1,6 @@
 # amethyst-nutrition
 
-[![Build Status](https://travis-ci.org/amethyst-php/nutrition.svg?branch=master)](https://travis-ci.org/amethyst-php/nutrition)
+[![Action Status](https://github.com/amethyst-php/nutrition/workflows/test/badge.svg)](https://github.com/amethyst-php/nutrition/actions)
 
 [Amethyst](https://github.com/amethyst-php/amethyst) package.
 
