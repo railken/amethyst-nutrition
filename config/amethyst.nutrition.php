@@ -22,26 +22,5 @@ return [
             'faker'      => Amethyst\Fakers\NutritionFaker::class,
             'manager'    => Amethyst\Managers\NutritionManager::class,
         ],
-    ],
-
-    /*
-    |--------------------------------------------------------------------------
-    | Http configuration
-    |--------------------------------------------------------------------------
-    |
-    | Here you may configure the routes
-    |
-    */
-    'http' => [
-        'admin' => [
-            'nutrition' => [
-                'enabled'    => true,
-                'controller' => Amethyst\Http\Controllers\Admin\NutritionsController::class,
-                'router'     => [
-                    'as'     => 'nutrition.',
-                    'prefix' => '/nutrition',
-                ],
-            ],
-        ],
-    ],
+    ]
 ];
