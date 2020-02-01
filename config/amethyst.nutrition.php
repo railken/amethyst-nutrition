@@ -22,5 +22,5 @@ return [
             'faker'      => Amethyst\Fakers\NutritionFaker::class,
             'manager'    => Amethyst\Managers\NutritionManager::class,
         ],
-    ]
+    ],
 ];
