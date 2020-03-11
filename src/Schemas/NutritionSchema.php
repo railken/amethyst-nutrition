@@ -30,7 +30,7 @@ class NutritionSchema extends Schema
                 ->setDefault(function (Nutrition $entity) {
                     return $entity->calories * 4.184;
                 }),
-            Attributes\EnumAttribute::make('nutritionable_type', app('amethyst')->getDataNames()),
+            \Amethyst\Core\Attributes\DataNameAttribute::make('nutritionable_type'),
             Attributes\MorphToAttribute::make('nutritionable_id')
                 ->setRelationKey('nutritionable_type')
                 ->setRelationName('nutritionable')
